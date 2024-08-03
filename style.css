@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    font-weight: 500;
+    font-family: "Red Hat Display", sans-serif;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.content{
+    display: grid;
+    gap: 1.3rem;
+    padding: 25px;
+    text-align: center;
+    
+}
+.image img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+.content h1,.plan .heading{
+    color:  hsl(223, 47%, 23%);
+}
+.desc{
+    padding: 0px 17px;
+}
+h1{
+    font-size: 23px;
+    font-weight: 900;
+}
+.heading{
+    font-size: 14px;
+    font-weight: 900;
+}
+.content p{
+    font-size: 14px;
+    color:  hsl(224, 23%, 55%);
+}
+.container{
+    padding: 17px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan{
+    display: grid;
+    gap: 0.35rem;
+    padding-left: 17px;
+}
+.summary{
+    display: flex;
+    align-items: center;
+}
+.summary img{
+    width: 45px;
+}
+.link a{
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+button{
+    box-shadow: 0px 10px 7px 3px hsl(225, 100%, 94%);
+    cursor: pointer;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-family: "Red Hat Display", sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+.cancel a{
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel a:hover{
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
+button:hover{
+    background-color:hsl(224, 49%, 34%);
+}
+.link a:hover{
+    color: hsl(224, 49%, 34%);
+    text-decoration: none;
+}
