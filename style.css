@@ -9,7 +9,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url('pattern-background-desktop.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
 }
+
+@media (max-width:400px) {
+    body {
+        background-image: url('pattern-background-mobile.svg');
+        padding: 1rem;
+    }
+}
+
 main{
     font-weight: 500;
     font-family: "Red Hat Display", sans-serif;
