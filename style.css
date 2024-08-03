@@ -24,6 +24,7 @@ body{
 }
 
 main{
+    background-color: white;
     font-weight: 500;
     font-family: "Red Hat Display", sans-serif;
     border-radius: 10px;
